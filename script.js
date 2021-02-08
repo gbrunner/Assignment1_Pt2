@@ -10,7 +10,7 @@ L.tileLayer('https://stamen-tiles-{s}.a.ssl.fastly.net/toner/{z}/{x}/{y}{r}.{ext
 
 $.getJSON("https://raw.githubusercontent.com/gbrunner/adv-python-for-gis-and-rs/master/Week%201/sf_crime.geojson",function(data){ 
 var ratIcon = L.icon({
-    iconUrl: 'https://maptimeboston.github.io/leaflet-intro/rat.gif',
+    iconUrl: 'https://images.app.goo.gl/Ezn6388wSATZpJWy9',
     iconSize: [50,40]
   }); 
   L.geoJson(data  ,{
